@@ -3,10 +3,25 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     const MaterialApp(
-      home: Center(child: Scaffold(body: Text('hi'),)),
+      home: Scaffold(body: Center(child: Text('hi'))),
     ),
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**
  * runApp() expects one widget — the root widget of your app.
 
