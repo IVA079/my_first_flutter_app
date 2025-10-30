@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: Text('Hello Flutter!'),
+    const MaterialApp(
+      home: Center(child: Scaffold(body: Text('hi'),)),
     ),
   );
 }
