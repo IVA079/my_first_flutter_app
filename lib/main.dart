@@ -9,10 +9,12 @@ void main() {
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [const Color.fromARGB(255, 217, 103, 68),
-              const Color.fromARGB(255, 219, 56, 110),
-              const Color.fromARGB(255, 48, 23, 53)
-             ]
+              colors: [
+      Color(0xFF2E3192),
+      Color(0xFF1BFFFF),
+    ],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
               )
           ),
 
